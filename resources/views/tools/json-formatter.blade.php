@@ -12,7 +12,7 @@
                 </svg>
                 JSON Formatter
             </h1>
-            <p class="text-gray-200 mt-1 text-sm">Easily beautify or validates your raw JSON data.</p>
+            <p class="text-gray-200 mt-1 text-sm">Easily beautify or validates your's raw JSON data.</p>
         </div>
 
         <form method="POST" action="{{ url('/json-formatter') }}" class="space-y-6">
