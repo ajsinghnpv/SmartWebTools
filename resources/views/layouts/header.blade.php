@@ -31,7 +31,7 @@
                         </svg>
                         Home
                     </a>
-                    <a href="{{ route('tools.my-ip') }}" class="px-4 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-white/10 transition-all duration-300 flex items-center {{ request()->routeIs('tools.my-ip') ? 'bg-white/10 shadow-inner' : '' }}">
+                    {{-- <a href="{{ route('tools.my-ip') }}" class="px-4 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-white/10 transition-all duration-300 flex items-center {{ request()->routeIs('tools.my-ip') ? 'bg-white/10 shadow-inner' : '' }}">
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
                         </svg>
@@ -42,14 +42,14 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                         </svg>
                         Developer
-                    </a>
+                    </a> --}}
                     <a href="{{ route('tools.comma-separator') }}" class="px-4 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-white/10 transition-all duration-300 flex items-center {{ request()->routeIs('tools.comma-separator') ? 'bg-white/10 shadow-inner' : '' }}">
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                         </svg>
                         Text Tools
                     </a>
-                    <div class="relative group">
+                    {{-- <div class="relative group">
                         <button class="px-4 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-white/10 transition-all duration-300 flex items-center">
                             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -77,7 +77,7 @@
                                     Password Generator
                                 </a>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
